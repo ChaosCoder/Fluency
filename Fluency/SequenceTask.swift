@@ -21,6 +21,13 @@ class SequenceTask : Task
 		super.init()
 	}
 	
+	convenience init(title : String)
+	{
+		self.init()
+		
+		self.title = title
+	}
+	
 	required init(task : Task)
 	{
 		let sequenceTask = task as! SequenceTask

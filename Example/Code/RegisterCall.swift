@@ -27,11 +27,15 @@ class RegisterCall : FailableTask {
 			(data, response, error) in
 			
 			if let error = error {
-				self.failure(error)
+				dispatch_sync(dispatch_get_main_queue()) {
+					self.failure(error)
+				}
 				return
 			}
 			
-			self.success(data)
+			dispatch_sync(dispatch_get_main_queue()) {
+				self.success(String(data: data!, encoding: NSUTF8StringEncoding))
+			}
 		}
 		
 		dataTask.resume()

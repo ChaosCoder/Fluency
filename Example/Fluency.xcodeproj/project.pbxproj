@@ -31,7 +31,38 @@
 		7D3BE67A1BB14CE000565460 /* ExampleProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6791BB14CE000565460 /* ExampleProcess.swift */; settings = {ASSET_TAGS = (); }; };
 		7D3BE67D1BB15AEC00565460 /* RegisterForRemoteNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE67C1BB15AEC00565460 /* RegisterForRemoteNotifications.swift */; settings = {ASSET_TAGS = (); }; };
 		7D3BE67F1BB15FD800565460 /* RegisterCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE67E1BB15FD800565460 /* RegisterCall.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6871BB2862B00565460 /* FluencyUMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6861BB2862B00565460 /* FluencyUMLTests.swift */; };
+		7D3BE68E1BB2865800565460 /* ExampleProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6791BB14CE000565460 /* ExampleProcess.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE68F1BB2867100565460 /* AsyncClosureTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6591BB1439000565460 /* AsyncClosureTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6901BB2867100565460 /* ChoiceTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE65A1BB1439000565460 /* ChoiceTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6911BB2867100565460 /* ClosureTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE65B1BB1439000565460 /* ClosureTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6921BB2867100565460 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE65C1BB1439000565460 /* Context.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6931BB2867100565460 /* ExtractKeyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE65D1BB1439000565460 /* ExtractKeyTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6941BB2867100565460 /* FailableTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE65E1BB1439000565460 /* FailableTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6951BB2867100565460 /* ForEachTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE65F1BB1439000565460 /* ForEachTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6961BB2867100565460 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6611BB1439000565460 /* Process.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6971BB2867100565460 /* SequenceTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6621BB1439000565460 /* SequenceTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6981BB2867100565460 /* SplitTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6631BB1439000565460 /* SplitTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6991BB2867100565460 /* SynchronizeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6641BB1439000565460 /* SynchronizeTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE69A1BB2867100565460 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6651BB1439000565460 /* Task.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE69B1BB2867100565460 /* TimeoutTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6661BB1439000565460 /* TimeoutTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE69C1BB2867100565460 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6751BB1448C00565460 /* Operators.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE69D1BB2867100565460 /* NSObject+Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6771BB1452400565460 /* NSObject+Address.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE69E1BB2868600565460 /* RegisterForRemoteNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE67C1BB15AEC00565460 /* RegisterForRemoteNotifications.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE69F1BB2868600565460 /* RegisterCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE67E1BB15FD800565460 /* RegisterCall.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6AD1BB2DF1100565460 /* MergeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6AC1BB2DF1100565460 /* MergeTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6AE1BB2DF1100565460 /* MergeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6AC1BB2DF1100565460 /* MergeTask.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D3BE6891BB2862B00565460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D3BE62C1BB141BA00565460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D3BE6331BB141BA00565460;
+			remoteInfo = Fluency;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7D3BE6341BB141BA00565460 /* Fluency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluency.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,10 +90,21 @@
 		7D3BE6791BB14CE000565460 /* ExampleProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleProcess.swift; sourceTree = "<group>"; };
 		7D3BE67C1BB15AEC00565460 /* RegisterForRemoteNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterForRemoteNotifications.swift; sourceTree = "<group>"; };
 		7D3BE67E1BB15FD800565460 /* RegisterCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterCall.swift; path = Code/RegisterCall.swift; sourceTree = SOURCE_ROOT; };
+		7D3BE6841BB2862B00565460 /* FluencyUMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluencyUMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D3BE6861BB2862B00565460 /* FluencyUMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluencyUMLTests.swift; sourceTree = "<group>"; };
+		7D3BE6881BB2862B00565460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D3BE6AC1BB2DF1100565460 /* MergeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7D3BE6311BB141BA00565460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3BE6811BB2862B00565460 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				7D3BE6491BB142A100565460 /* Code */,
+				7D3BE6851BB2862B00565460 /* FluencyUMLTests */,
 				7D3BE6351BB141BA00565460 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				7D3BE6341BB141BA00565460 /* Fluency.app */,
+				7D3BE6841BB2862B00565460 /* FluencyUMLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,9 +167,19 @@
 				7D3BE6661BB1439000565460 /* TimeoutTask.swift */,
 				7D3BE6751BB1448C00565460 /* Operators.swift */,
 				7D3BE6771BB1452400565460 /* NSObject+Address.swift */,
+				7D3BE6AC1BB2DF1100565460 /* MergeTask.swift */,
 			);
 			name = Fluency;
 			path = ../../Fluency;
+			sourceTree = "<group>";
+		};
+		7D3BE6851BB2862B00565460 /* FluencyUMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D3BE6861BB2862B00565460 /* FluencyUMLTests.swift */,
+				7D3BE6881BB2862B00565460 /* Info.plist */,
+			);
+			path = FluencyUMLTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +202,24 @@
 			productReference = 7D3BE6341BB141BA00565460 /* Fluency.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7D3BE6831BB2862B00565460 /* FluencyUMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D3BE68B1BB2862B00565460 /* Build configuration list for PBXNativeTarget "FluencyUMLTests" */;
+			buildPhases = (
+				7D3BE6801BB2862B00565460 /* Sources */,
+				7D3BE6811BB2862B00565460 /* Frameworks */,
+				7D3BE6821BB2862B00565460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D3BE68A1BB2862B00565460 /* PBXTargetDependency */,
+			);
+			name = FluencyUMLTests;
+			productName = FluencyUMLTests;
+			productReference = 7D3BE6841BB2862B00565460 /* FluencyUMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -159,6 +231,10 @@
 				TargetAttributes = {
 					7D3BE6331BB141BA00565460 = {
 						CreatedOnToolsVersion = 7.0;
+					};
+					7D3BE6831BB2862B00565460 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 7D3BE6331BB141BA00565460;
 					};
 				};
 			};
@@ -176,6 +252,7 @@
 			projectRoot = "";
 			targets = (
 				7D3BE6331BB141BA00565460 /* Fluency */,
+				7D3BE6831BB2862B00565460 /* FluencyUMLTests */,
 			);
 		};
 /* End PBXProject section */
@@ -189,6 +266,13 @@
 				7D3BE6551BB142A100565460 /* Main.storyboard in Resources */,
 				7D3BE6531BB142A100565460 /* Assets.xcassets in Resources */,
 				7D3BE6541BB142A100565460 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D3BE6821BB2862B00565460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +299,7 @@
 				7D3BE6711BB1439000565460 /* SplitTask.swift in Sources */,
 				7D3BE67F1BB15FD800565460 /* RegisterCall.swift in Sources */,
 				7D3BE6761BB1448C00565460 /* Operators.swift in Sources */,
+				7D3BE6AD1BB2DF1100565460 /* MergeTask.swift in Sources */,
 				7D3BE66B1BB1439000565460 /* ExtractKeyTask.swift in Sources */,
 				7D3BE6701BB1439000565460 /* SequenceTask.swift in Sources */,
 				7D3BE6521BB142A100565460 /* AppDelegate.swift in Sources */,
@@ -222,7 +307,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D3BE6801BB2862B00565460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3BE6941BB2867100565460 /* FailableTask.swift in Sources */,
+				7D3BE6961BB2867100565460 /* Process.swift in Sources */,
+				7D3BE6951BB2867100565460 /* ForEachTask.swift in Sources */,
+				7D3BE6911BB2867100565460 /* ClosureTask.swift in Sources */,
+				7D3BE68E1BB2865800565460 /* ExampleProcess.swift in Sources */,
+				7D3BE6AE1BB2DF1100565460 /* MergeTask.swift in Sources */,
+				7D3BE69E1BB2868600565460 /* RegisterForRemoteNotifications.swift in Sources */,
+				7D3BE69F1BB2868600565460 /* RegisterCall.swift in Sources */,
+				7D3BE6981BB2867100565460 /* SplitTask.swift in Sources */,
+				7D3BE69B1BB2867100565460 /* TimeoutTask.swift in Sources */,
+				7D3BE6901BB2867100565460 /* ChoiceTask.swift in Sources */,
+				7D3BE6921BB2867100565460 /* Context.swift in Sources */,
+				7D3BE69C1BB2867100565460 /* Operators.swift in Sources */,
+				7D3BE6931BB2867100565460 /* ExtractKeyTask.swift in Sources */,
+				7D3BE6971BB2867100565460 /* SequenceTask.swift in Sources */,
+				7D3BE6871BB2862B00565460 /* FluencyUMLTests.swift in Sources */,
+				7D3BE68F1BB2867100565460 /* AsyncClosureTask.swift in Sources */,
+				7D3BE69D1BB2867100565460 /* NSObject+Address.swift in Sources */,
+				7D3BE69A1BB2867100565460 /* Task.swift in Sources */,
+				7D3BE6991BB2867100565460 /* SynchronizeTask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D3BE68A1BB2862B00565460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D3BE6331BB141BA00565460 /* Fluency */;
+			targetProxy = 7D3BE6891BB2862B00565460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7D3BE64C1BB142A100565460 /* LaunchScreen.storyboard */ = {
@@ -349,6 +469,30 @@
 			};
 			name = Release;
 		};
+		7D3BE68C1BB2862B00565460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FluencyUMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.chaosspace.FluencyUMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fluency;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7D3BE68D1BB2862B00565460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FluencyUMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.chaosspace.FluencyUMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fluency;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -366,6 +510,15 @@
 			buildConfigurations = (
 				7D3BE6471BB141BA00565460 /* Debug */,
 				7D3BE6481BB141BA00565460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D3BE68B1BB2862B00565460 /* Build configuration list for PBXNativeTarget "FluencyUMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D3BE68C1BB2862B00565460 /* Debug */,
+				7D3BE68D1BB2862B00565460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

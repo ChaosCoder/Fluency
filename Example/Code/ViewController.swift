@@ -23,8 +23,8 @@ class ViewController: UIViewController {
 	@IBAction func startProcess() {
 		let process = ExampleProcess()
 		
-		process.successClosure = { _ in
-			let alertController = UIAlertController(title: "Success", message: nil, preferredStyle: .Alert)
+		process.successClosure = { data in
+			let alertController = UIAlertController(title: "Success", message: data as? String, preferredStyle: .Alert)
 			alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
 			
 			self.presentViewController(alertController, animated: true, completion: nil)

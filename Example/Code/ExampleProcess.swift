@@ -37,6 +37,7 @@ class ExampleProcess : Process
 	let registerForPush = RegisterForRemoteNotificationsTask()
 	
 	let synchronize = SynchronizeTask()
+	let merge = MergeTask()
 	
 	let registerCall = RegisterCall()
 	
@@ -46,11 +47,13 @@ class ExampleProcess : Process
 		
 		rootTask = getIsSimulator → isSimulator
 		
-		isSimulator[false] → (generateKeypair | registerForPush)
 		isSimulator[true] → (generateKeypair | getTestDeviceToken)
+		isSimulator → (generateKeypair | registerForPush)
 		
-		getTestDeviceToken → synchronize["DeviceToken"]
-		registerForPush → synchronize["DeviceToken"]
+		getTestDeviceToken → merge
+		registerForPush → merge
+		
+		merge → synchronize["DeviceToken"]
 		generateKeypair → synchronize["PublicKey"]
 		
 		registerForPush ↯ failureTask

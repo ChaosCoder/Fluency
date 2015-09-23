@@ -19,6 +19,7 @@ class SynchronizeTask: SequenceTask
 	{
 		dependencies = [:]
 		result = [:]
+		
 		super.init()
 	}
 	

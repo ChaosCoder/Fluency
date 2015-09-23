@@ -14,23 +14,13 @@ class Process : NSObject
 	var successClosure : ((Any?) -> ())!
 	var failureClosure : ((NSError?) -> ())!
 	
-	var successTask : Task? {
-		if successClosure == nil
-		{
-			return nil
-		}
-		
+	var successTask : Task {
 		return ClosureTask(title: "SUCCESS", voidClosure: { (result : Any?) -> () in
 			self.successClosure(result)
 		})
 	}
 	
-	var failureTask : Task? {
-		if failureClosure == nil
-		{
-			return nil
-		}
-		
+	var failureTask : Task {
 		return ClosureTask(title: "FAILURE", voidClosure: { (result : Any?) -> () in
 			self.failureClosure(result as? NSError)
 		})
@@ -62,14 +52,7 @@ class Process : NSObject
 	
 	func unhandledFailure(task : Task, error : NSError, context : Context)
 	{
-		if let failureTask = failureTask
-		{
-			failureTask.start(context)
-		}
-		else
-		{
-			assertionFailure("\(task) failed unhandled with \(error)")
-		}
+		failureTask.start(context)
 	}
 	
 	func plantUML() -> String
