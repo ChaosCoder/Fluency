@@ -21,22 +21,10 @@ class ViewController: UIViewController {
 	}
 
 	@IBAction func startProcess() {
-		let process = ExampleProcess()
-		
-		process.successClosure = { data in
-			let alertController = UIAlertController(title: "Success", message: data as? String, preferredStyle: .Alert)
-			alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-			
-			self.presentViewController(alertController, animated: true, completion: nil)
+		let process = WorkProcess()
+		process.successClosure = { _ in
+			print("SUCCESS!")
 		}
-		
-		process.failureClosure = { error in
-			let alertController = UIAlertController(title: "Failure", message: error?.localizedDescription, preferredStyle: .Alert)
-			alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
-			
-			self.presentViewController(alertController, animated: true, completion: nil)
-		}
-		
 		process.execute()
 	}
 }

@@ -104,3 +104,9 @@ func → (left: FailableTask, right: (SynchronizeTask, String)) -> FailableTask 
 	right.0.addDependency(left, key: right.1)
 	return left
 }
+
+func →<T> (left: (ChoiceTask<T>, T), right: (SynchronizeTask, String)) -> (ChoiceTask<T>, T) {
+	left.0.nextTask[left.1] = right.0
+	right.0.addDependency(left.0, key: right.1)
+	return left
+}

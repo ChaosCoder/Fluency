@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="653pt" style="width:472px;height:653px;" version="1.1" viewBox="0 0 472 653" width="472pt">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="873pt" style="width:440px;height:873px;" version="1.1" viewBox="0 0 440 873" width="440pt">
   <defs>
     <filter height="300%" id="f1" width="300%" x="-1" y="-1">
       <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
@@ -9,62 +9,83 @@
     </filter>
   </defs>
   <g>
-    <text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="139" x="171" y="17.4023">ExampleProcess</text>
-    <ellipse cx="244" cy="39.1992" fill="#000000" filter="url(#f1)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/>
-    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="110" x="189" y="90.1992"/>
-    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="90" x="199" y="111.8008">Get is simulator</text>
-    <polygon fill="#FEFECE" filter="url(#f1)" points="244,165.1992,256,177.1992,244,189.1992,232,177.1992,244,165.1992" style="stroke: #A80036; stroke-width: 1.5;"/>
-    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="154" y="246.1992"/>
-    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="136" x="327" y="295.1992"/>
-    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="116" x="337" y="316.8008">Generate public key</text>
-    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="220" y="561.1992"/>
-    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="88" x="216" y="610.1992"/>
-    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="68" x="226" y="631.8008">RegisterCall</text>
-    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="142" x="6" y="349.1992"/>
-    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="122" x="16" y="370.8008">Get test device token</text>
-    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="96" y="490.1992"/>
-    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="254" y="246.1992"/>
-    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="227" x="79.5" y="295.1992"/>
-    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="207" x="89.5" y="316.8008">RegisterForRemoteNotificationsTask</text>
-    <polygon fill="#FEFECE" filter="url(#f1)" points="193,403.1992,205,415.1992,193,427.1992,181,415.1992,193,403.1992" style="stroke: #A80036; stroke-width: 1.5;"/>
-    <ellipse cx="206" cy="494.1992" fill="none" filter="url(#f1)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.0;"/>
-    <ellipse cx="206.5" cy="494.6992" fill="#000000" rx="6" ry="6" style="stroke: none; stroke-width: 1.0;"/>
-    <path d="M244,49.3762 C244,58.4682 244,72.7262 244,84.6842 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="244,89.9902,248,80.9902,244,84.9902,240,80.9902,244,89.9902" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <path d="M244,124.3142 C244,135.1152 244,149.2812 244,160.0822 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="244,165.0842,248,156.0842,244,160.0842,240,156.0842,244,165.0842" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="147.5" y="154.6254">Is simulator?</text>
-    <path d="M239.386,184.7512 C230.084,197.9592 209.133,227.7102 199.293,241.6832 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="196.213,246.0572,204.6648,241.0009,199.0914,241.9689,198.1235,236.3954,196.213,246.0572" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="25" x="223" y="222.7676">true</text>
-    <path d="M204.244,254.2572 C228.249,261.4232 289.637,279.7472 336.345,293.6902 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="341.389,295.1962,333.9094,288.7888,336.5979,293.7659,331.6209,296.4545,341.389,295.1962" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <path d="M392.641,329.3452 C385.967,369.7812 363.496,476.7652 305,541.1992 C297.065,549.9395 285.041,555.8457 275.417,559.4826 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="270.638,561.1805,280.4578,561.936,275.3494,559.5063,277.7791,554.3978,270.638,561.1805" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="360" y="460.7676">PublicKey</text>
-    <path d="M260,569.4251 C260,576.0865 260,591.8474 260,605.077 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="260,610.1843,264,601.1843,260,605.1843,256,601.1843,260,610.1843" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <path d="M153.851,253.6132 C125.046,257.6932 88.0795,268.2562 69,295.1992 C59.0289,309.2802 62.4746,329.0952 67.5791,344.0512 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="69.3568,348.9212,70.0286,339.0953,67.6425,344.2243,62.5135,341.8382,69.3568,348.9212" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <path d="M84.5924,383.4132 C97.3918,410.7472 122.796,465.0012 132.299,485.2942 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="134.445,489.8772,134.2519,480.0303,132.3251,485.3489,127.0065,483.4221,134.445,489.8772" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <path d="M141.65,498.3432 C161.105,509.1692 225.478,544.9892 250.206,558.7495 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="254.598,561.1935,248.6788,553.3218,250.229,558.7622,244.7886,560.3123,254.598,561.1935" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="218" y="537.7676">DeviceToken</text>
-    <path d="M248.614,184.7512 C257.916,197.9592 278.867,227.7102 288.707,241.6832 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="291.787,246.0572,289.8765,236.3954,288.9086,241.9689,283.3352,241.0009,291.787,246.0572" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="278" y="222.7676">default</text>
-    <path d="M299.147,254.2572 C310.83,261.1972 340.134,278.6052 363.29,292.3612 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="367.832,295.0602,362.1351,287.0262,363.5326,292.5077,358.0511,293.9052,367.832,295.0602" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <path d="M288.853,254.2572 C277.17,261.1972 247.866,278.6052 224.71,292.3612 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="220.168,295.0602,229.9489,293.9052,224.4674,292.5077,225.8649,287.0262,220.168,295.0602" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <path d="M193,329.4262 C193,348.1242 193,378.6912 193,397.5602 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="193,403.0152,197,394.0152,193,398.0152,189,394.0152,193,403.0152" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="192.175" y="392.528"/>
-    <path d="M188.14,422.7642 C177.594,437.0102 152.665,470.6862 141.535,485.7222 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="138.33,490.0522,146.9005,485.1997,141.3055,486.034,140.4713,480.4389,138.33,490.0522" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <path d="M194.594,425.6412 C196.84,438.9462 200.956,463.3202 203.58,478.8672 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <polygon fill="#A80036" points="204.474,484.1592,206.9189,474.6187,203.6411,479.2291,199.0307,475.9513,204.474,484.1592" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="203" y="460.7676">failure</text>
+    <text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="139" x="155.5" y="17.4023">ExampleProcess</text>
+    <ellipse cx="192" cy="39.1992" fill="#000000" filter="url(#f1)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="110" x="137" y="90.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="90" x="147" y="111.8008">Get is simulator</text>
+    <polygon fill="#FEFECE" filter="url(#f1)" points="192,165.1992,204,177.1992,192,189.1992,180,177.1992,192,165.1992" style="stroke: #A80036; stroke-width: 1.5;"/>
+    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="102" y="246.1992"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="136" x="6" y="295.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="116" x="16" y="316.8008">Generate public key</text>
+    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="86" y="566.1992"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="88" x="82" y="615.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="68" x="92" y="636.8008">RegisterCall</text>
+    <polygon fill="#FEFECE" filter="url(#f1)" points="126,690.1992,138,702.1992,126,714.1992,114,702.1992,126,690.1992" style="stroke: #A80036; stroke-width: 1.5;"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="69" x="165.5" y="771.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="175.5" y="792.8008">SUCCESS</text>
+    <ellipse cx="200" cy="856.1992" fill="none" filter="url(#f1)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.0;"/>
+    <ellipse cx="200.5" cy="856.6992" fill="#000000" rx="6" ry="6" style="stroke: none; stroke-width: 1.0;"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="66" x="79" y="771.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="89" y="792.8008">FAILURE</text>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="142" x="102" y="349.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="122" x="112" y="370.8008">Get test device token</text>
+    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="133" y="484.1992"/>
+    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="202" y="246.1992"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="227" x="204.5" y="295.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="207" x="214.5" y="316.8008">RegisterForRemoteNotificationsTask</text>
+    <polygon fill="#FEFECE" filter="url(#f1)" points="266,403.1992,278,415.1992,266,427.1992,254,415.1992,266,403.1992" style="stroke: #A80036; stroke-width: 1.5;"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="66" x="233" y="512.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="243" y="533.8008">FAILURE</text>
+    <path d="M192,49.3762 C192,58.4682 192,72.7262 192,84.6842 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="192,89.9902,196,80.9902,192,84.9902,188,80.9902,192,89.9902" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M192,124.3142 C192,135.1152 192,149.2812 192,160.0822 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="192,165.0842,196,156.0842,192,160.0842,188,156.0842,192,165.0842" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="80" x="95.5" y="154.6254">Is simulator?</text>
+    <path d="M187.386,184.7512 C178.084,197.9592 157.133,227.7102 147.293,241.6832 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="144.213,246.0572,152.6648,241.0009,147.0914,241.9689,146.1235,236.3954,144.213,246.0572" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="25" x="171" y="222.7676">true</text>
+    <path d="M138.344,254.4252 C130.46,261.3812 111.331,278.2602 95.9662,291.8172 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="92.1502,295.1842,101.545,292.2282,95.8991,291.8758,96.2515,286.2299,92.1502,295.1842" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M77.2528,329.2132 C87.1736,378.0542 116.824,524.0252 124.283,560.7442 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="125.346,565.9802,127.4737,556.3639,124.3503,561.0804,119.6339,557.957,125.346,565.9802" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="106" y="460.7676">PublicKey</text>
+    <path d="M126,574.4252 C126,581.0862 126,596.8472 126,610.0772 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="126,615.1842,130,606.1842,126,610.1842,122,606.1842,126,615.1842" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M126,649.3142 C126,660.1152 126,674.2812 126,685.0822 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="126,690.0842,130,681.0842,126,685.0842,122,681.0842,126,690.0842" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="125.175" y="679.6254"/>
+    <path d="M133.207,707.3002 C142.15,712.6442 157.5,722.6782 168,734.1992 C176.664,743.7062 184.221,755.9062 189.812,766.2047 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="192.24,770.786,191.5601,760.9607,189.8987,766.368,184.4914,764.7067,192.24,770.786" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M200,805.5138 C200,816.436 200,830.6675 200,841.0985 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="200,846.1692,204,837.1692,200,841.1692,196,837.1692,200,846.1692" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M124.394,712.8352 C122.246,725.7232 118.379,748.9262 115.534,765.9982 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="114.686,771.0808,120.1109,762.8607,115.5079,766.1488,112.2197,761.5457,114.686,771.0808" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="122" y="747.7676">failure</text>
+    <path d="M133.753,805.5138 C150.764,818.2719 173.795,835.5452 187.738,846.0026 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="192.096,849.2713,187.296,840.6713,188.096,846.2713,182.496,847.0713,192.096,849.2713" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M142.829,254.2482 C146.256,266.8482 159.493,315.5292 167.249,344.0502 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="168.63,349.1282,170.1264,339.3937,167.3171,344.3037,162.4071,341.4944,168.63,349.1282" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M173,383.3832 C173,409.3562 173,459.4172 173,479.0322 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="173,484.0822,177,475.0822,173,479.0822,169,475.0822,173,484.0822" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M165.788,492.3172 C158.201,495.9732 146.481,502.7562 140,512.1992 C129.787,527.0802 127.004,548.6562 126.259,560.5382 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="126.027,565.7822,130.4216,556.9682,126.2484,560.7871,122.4294,556.6139,126.027,565.7822" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="81" x="141" y="534.2676">DeviceToken</text>
+    <path d="M196.614,184.7512 C205.916,197.9592 226.867,227.7102 236.707,241.6832 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="239.787,246.0572,237.8765,236.3954,236.9086,241.9689,231.3352,241.0009,239.787,246.0572" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="226" y="222.7676">default</text>
+    <path d="M233.438,254.2572 C213.536,261.3652 162.893,279.4512 123.976,293.3502 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="118.809,295.1962,128.63,295.9365,123.5178,293.5147,125.9396,288.4025,118.809,295.1962" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M246.086,254.4252 C254.897,261.3812 276.277,278.2602 293.449,291.8172 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="297.715,295.1842,293.1283,286.4686,293.7901,292.0866,288.1721,292.7484,297.715,295.1842" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M309.645,329.4262 C299.201,349.7132 281.564,383.9692 272.228,402.1022 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="269.828,406.7632,277.5037,400.592,272.1165,402.3177,270.3908,396.9305,269.828,406.7632" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="271.2218" y="392.2988"/>
+    <path d="M259.608,421.0792 C243.113,433.6722 199.142,467.2412 180.999,481.0922 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="176.976,484.1642,186.5568,481.882,180.9501,481.13,181.7021,475.5234,176.976,484.1642" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M266,427.3472 C266,445.8662 266,483.2682 266,506.9532 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="266,512.0782,270,503.0782,266,507.0782,262,503.0782,266,512.0782" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="40" x="267" y="460.7676">failure</text>
+    <path d="M266,546.2432 C266,559.1882 266,577.8662 266,594.1992 C266,594.1992 266,594.1992 266,789.1992 C266,818.6281 232.785,839.5181 213.48,849.1738 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="208.901,851.385,218.7449,851.0735,213.4035,849.2108,215.2662,843.8694,208.901,851.385" style="stroke: #A80036; stroke-width: 1.0;"/>
   </g>
 </svg>

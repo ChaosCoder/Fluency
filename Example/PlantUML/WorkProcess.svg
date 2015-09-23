@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="915pt" style="width:365px;height:915px;" version="1.1" viewBox="0 0 365 915" width="365pt">
+  <defs>
+    <filter height="300%" id="f1" width="300%" x="-1" y="-1">
+      <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+      <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+      <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+      <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+    </filter>
+  </defs>
+  <g>
+    <text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="109" x="137" y="17.4023">WorkProcess</text>
+    <ellipse cx="104.2185" cy="39.1992" fill="#000000" filter="url(#f1)" rx="10" ry="10" style="stroke: none; stroke-width: 1.0;"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="55.7185" y="90.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77" x="65.7185" y="111.8008">Eat breakfast</text>
+    <polygon fill="#FEFECE" filter="url(#f1)" points="104.2185,181.1992,116.2185,193.1992,104.2185,205.1992,92.2185,193.1992,104.2185,181.1992" style="stroke: #A80036; stroke-width: 1.5;"/>
+    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="64.2185" y="262.1992"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="114" x="33.2185" y="365.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="94" x="43.2185" y="386.8008">Pretend working</text>
+    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="36.2185" y="764.1992"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="69" x="41.7185" y="813.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="49" x="51.7185" y="834.8008">SUCCESS</text>
+    <ellipse cx="76.2185" cy="898.1992" fill="none" filter="url(#f1)" rx="10" ry="10" style="stroke: #000000; stroke-width: 1.0;"/>
+    <ellipse cx="76.7185" cy="898.6992" fill="#000000" rx="6" ry="6" style="stroke: none; stroke-width: 1.0;"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="79" x="126.719" y="311.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="59" x="136.719" y="332.8008">Get coffee</text>
+    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="126.219" y="419.1992"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="61.7185" y="468.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="77" x="71.7185" y="489.8008">Think of verb</text>
+    <rect fill="#000000" filter="url(#f1)" height="8" style="stroke: none; stroke-width: 1.0;" width="80" x="140.219" y="559.1992"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="144" x="108.219" y="608.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="124" x="118.219" y="629.8008">GoogleKeywordsTask</text>
+    <polygon fill="#FEFECE" filter="url(#f1)" points="180.219,683.1992,192.219,695.1992,180.219,707.1992,168.219,695.1992,180.219,683.1992" style="stroke: #A80036; stroke-width: 1.5;"/>
+    <rect fill="#FEFECE" filter="url(#f1)" height="34.1328" rx="12.5" ry="12.5" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="178.719" y="468.1992"/>
+    <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="89" x="188.719" y="489.8008">Think of animal</text>
+    <path d="M104.2185,49.3762 C104.2185,58.4682 104.2185,72.7262 104.2185,84.6842 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="104.2185,89.9902,108.2185,80.9902,104.2185,84.9902,100.2185,80.9902,104.2185,89.9902" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M102.4182,124.4332 C101.4729,134.9212 100.6231,148.8642 101.2185,161.1992 C101.4674,166.3552 101.9479,171.9772 102.4526,177.0002 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="103,182.1652,106.0289,172.7937,102.4729,177.1931,98.0734,173.6371,103,182.1652" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="77" x="7.0448" y="172.7267">Still hungry?</text>
+    <path d="M104.2185,181.1422 C104.2185,168.1122 104.2185,146.1592 104.2185,129.7332 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="104.2185,124.3952,100.2185,133.3952,104.2185,129.3952,108.2185,133.3952,104.2185,124.3952" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="25" x="105.2185" y="157.7676">true</text>
+    <path d="M104.2185,205.2932 C104.2185,219.5042 104.2185,243.8292 104.2185,256.6742 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="104.2185,261.9642,108.2185,252.9642,104.2185,256.9642,100.2185,252.9642,104.2185,261.9642" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="105.2185" y="238.7676">default</text>
+    <path d="M103.8441,270.2482 C102.2967,282.8482 96.3183,331.5292 92.8157,360.0502 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="92.1921,365.1282,97.2602,356.6834,92.8021,360.1656,89.32,355.7075,92.1921,365.1282" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M61.9754,399.2962 C46.4133,410.4592 30.2185,426.9432 30.2185,447.1992 C30.2185,447.1992 30.2185,447.1992 30.2185,696.1992 C30.2185,723.9102 55.2043,749.3402 68.3468,760.7992 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="72.2966,764.1332,68,755.271,68.4761,760.9078,62.8393,761.3838,72.2966,764.1332" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M76.2185,772.4252 C76.2185,779.0862 76.2185,794.8472 76.2185,808.0772 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="76.2185,813.1843,80.2185,804.1843,76.2185,808.1843,72.2185,804.1843,76.2185,813.1843" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M76.2185,847.5138 C76.2185,858.436 76.2185,872.6675 76.2185,883.0985 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="76.2185,888.1692,80.2185,879.1692,76.2185,883.1692,72.2185,879.1692,76.2185,888.1692" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M107.552,270.4252 C114.679,277.3222 131.886,293.9742 145.834,307.4722 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="149.67,311.1842,145.9827,302.0517,146.0764,307.7077,140.4203,307.8014,149.67,311.1842" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M166.219,345.3982 C166.219,365.4292 166.219,398.7472 166.219,414.0542 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="166.219,419.1252,170.219,410.1252,166.219,414.1252,162.219,410.1252,166.219,419.1252" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M163.208,427.4252 C156.77,434.3222 141.228,450.9742 128.631,464.4722 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="125.166,468.1842,134.2308,464.3332,128.5773,464.5287,128.3819,458.8752,125.166,468.1842" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M125.064,502.3172 C140.219,518.7712 163.022,543.5282 173.947,555.3902 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="177.399,559.1372,174.2435,549.8075,174.0115,555.4596,168.3594,555.2276,177.399,559.1372" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="28" x="159.219" y="535.7676">Verb</text>
+    <path d="M180.219,567.4252 C180.219,574.0862 180.219,589.8472 180.219,603.0772 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="180.219,608.1842,184.219,599.1842,180.219,603.1842,176.219,599.1842,180.219,608.1842" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M180.219,642.3142 C180.219,653.1152 180.219,667.2812 180.219,678.0822 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="180.219,683.0842,184.219,674.0842,180.219,678.0842,176.219,674.0842,180.219,683.0842" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="103" x="56.9402" y="672.9903">Worked enough?</text>
+    <path d="M173.395,700.8582 C155.154,713.3102 105.2777,747.3612 84.983,761.2162 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="80.704,764.1372,90.3924,762.3669,84.8336,761.3183,85.8822,755.7595,80.704,764.1372" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="136.219" y="740.7676">8</text>
+    <path d="M191.126,693.9112 C223.894,692.4112 319.219,683.1532 319.219,626.1992 C319.219,422.1992 319.219,422.1992 319.219,422.1992 C319.219,371.1662 256.295,347.3412 211.153,336.8142 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="206.018,335.6552,213.9158,341.5395,210.8952,336.7567,215.6781,333.7361,206.018,335.6552" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="320.219" y="535.7676">default</text>
+    <path d="M169.821,427.4252 C177.589,434.3812 196.436,451.2602 211.575,464.8172 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="215.335,468.1842,211.2996,459.2,211.6105,464.8483,205.9622,465.1592,215.335,468.1842" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <path d="M221.979,502.3172 C210.705,518.4822 193.843,542.6622 185.411,554.7542 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <polygon fill="#A80036" points="182.354,559.1372,190.7829,554.0428,185.2139,555.0359,184.2208,549.4669,182.354,559.1372" style="stroke: #A80036; stroke-width: 1.0;"/>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="208.219" y="535.7676">Animal</text>
+  </g>
+</svg>

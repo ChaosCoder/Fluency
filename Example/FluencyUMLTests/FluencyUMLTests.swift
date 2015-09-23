@@ -40,6 +40,11 @@ class FluencyUMLTests: XCTestCase {
 		outputProcessPlantUML(exampleProcess)
     }
 	
+	func testWork() {
+		let workProcess = WorkProcess()
+		outputProcessPlantUML(workProcess)
+	}
+	
 	func outputProcessPlantUML(process : Process)
 	{
 		outputPlantUML(process.className(), content: process.plantUML())

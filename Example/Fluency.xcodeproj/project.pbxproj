@@ -52,6 +52,10 @@
 		7D3BE69F1BB2868600565460 /* RegisterCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE67E1BB15FD800565460 /* RegisterCall.swift */; settings = {ASSET_TAGS = (); }; };
 		7D3BE6AD1BB2DF1100565460 /* MergeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6AC1BB2DF1100565460 /* MergeTask.swift */; settings = {ASSET_TAGS = (); }; };
 		7D3BE6AE1BB2DF1100565460 /* MergeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6AC1BB2DF1100565460 /* MergeTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6B31BB2EAB100565460 /* WorkProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6B21BB2EAB100565460 /* WorkProcess.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6B41BB2EAB100565460 /* WorkProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6B21BB2EAB100565460 /* WorkProcess.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6B61BB2EF2000565460 /* GoogleKeywordsTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6B51BB2EF1F00565460 /* GoogleKeywordsTask.swift */; settings = {ASSET_TAGS = (); }; };
+		7D3BE6B71BB2EF2000565460 /* GoogleKeywordsTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3BE6B51BB2EF1F00565460 /* GoogleKeywordsTask.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +98,8 @@
 		7D3BE6861BB2862B00565460 /* FluencyUMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluencyUMLTests.swift; sourceTree = "<group>"; };
 		7D3BE6881BB2862B00565460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D3BE6AC1BB2DF1100565460 /* MergeTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeTask.swift; sourceTree = "<group>"; };
+		7D3BE6B21BB2EAB100565460 /* WorkProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkProcess.swift; sourceTree = "<group>"; };
+		7D3BE6B51BB2EF1F00565460 /* GoogleKeywordsTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleKeywordsTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,8 @@
 				7D3BE6791BB14CE000565460 /* ExampleProcess.swift */,
 				7D3BE67C1BB15AEC00565460 /* RegisterForRemoteNotifications.swift */,
 				7D3BE67E1BB15FD800565460 /* RegisterCall.swift */,
+				7D3BE6B21BB2EAB100565460 /* WorkProcess.swift */,
+				7D3BE6B51BB2EF1F00565460 /* GoogleKeywordsTask.swift */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -292,9 +300,11 @@
 				7D3BE6721BB1439000565460 /* SynchronizeTask.swift in Sources */,
 				7D3BE67A1BB14CE000565460 /* ExampleProcess.swift in Sources */,
 				7D3BE6741BB1439000565460 /* TimeoutTask.swift in Sources */,
+				7D3BE6B61BB2EF2000565460 /* GoogleKeywordsTask.swift in Sources */,
 				7D3BE6571BB142A100565460 /* ViewController.swift in Sources */,
 				7D3BE6731BB1439000565460 /* Task.swift in Sources */,
 				7D3BE6681BB1439000565460 /* ChoiceTask.swift in Sources */,
+				7D3BE6B31BB2EAB100565460 /* WorkProcess.swift in Sources */,
 				7D3BE66A1BB1439000565460 /* Context.swift in Sources */,
 				7D3BE6711BB1439000565460 /* SplitTask.swift in Sources */,
 				7D3BE67F1BB15FD800565460 /* RegisterCall.swift in Sources */,
@@ -320,6 +330,7 @@
 				7D3BE69E1BB2868600565460 /* RegisterForRemoteNotifications.swift in Sources */,
 				7D3BE69F1BB2868600565460 /* RegisterCall.swift in Sources */,
 				7D3BE6981BB2867100565460 /* SplitTask.swift in Sources */,
+				7D3BE6B41BB2EAB100565460 /* WorkProcess.swift in Sources */,
 				7D3BE69B1BB2867100565460 /* TimeoutTask.swift in Sources */,
 				7D3BE6901BB2867100565460 /* ChoiceTask.swift in Sources */,
 				7D3BE6921BB2867100565460 /* Context.swift in Sources */,
@@ -329,6 +340,7 @@
 				7D3BE6871BB2862B00565460 /* FluencyUMLTests.swift in Sources */,
 				7D3BE68F1BB2867100565460 /* AsyncClosureTask.swift in Sources */,
 				7D3BE69D1BB2867100565460 /* NSObject+Address.swift in Sources */,
+				7D3BE6B71BB2EF2000565460 /* GoogleKeywordsTask.swift in Sources */,
 				7D3BE69A1BB2867100565460 /* Task.swift in Sources */,
 				7D3BE6991BB2867100565460 /* SynchronizeTask.swift in Sources */,
 			);
