@@ -1,11 +1,3 @@
-//
-//  ExtractKeyTask.swift
-//  ShareLoc
-//
-//  Created by Andreas Ganske on 13.02.15.
-//  Copyright (c) 2015 Anbion. All rights reserved.
-//
-
 import Foundation
 
 class ExtractKeyTask: SequenceTask {

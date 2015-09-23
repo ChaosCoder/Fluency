@@ -48,6 +48,10 @@ class WorkProcess : Process
 	{
 		super.init()
 		
+		workedHours.getResultClosure = { _ in
+			return 8
+		}
+		
 		rootTask = eatBreakfast → amIStillHungry
 		
 		amIStillHungry[true] → eatBreakfast
@@ -60,16 +64,12 @@ class WorkProcess : Process
 		
 		syncKeywords → googleKeywords
 		
-		workedHours.getResultClosure = { _ in
-			return 8
-		}
-		
 		googleKeywords → workedHours
 		
-		workedHours[8] → syncWork["Hours"]
+		workedHours[8] → syncWork
 		workedHours → getCoffee
 		
-		work → syncWork["Work"]
+		work → syncWork
 		
 		syncWork → successTask
 	}

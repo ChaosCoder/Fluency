@@ -1,11 +1,3 @@
-//
-//  SplitTask.swift
-//  ShareLoc
-//
-//  Created by Andreas Ganske on 23.01.15.
-//  Copyright (c) 2015 Anbion. All rights reserved.
-//
-
 import Foundation
 
 class SplitTask : Task

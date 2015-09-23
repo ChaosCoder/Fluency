@@ -1,11 +1,3 @@
-//
-//  MergeTask.swift
-//  Fluency
-//
-//  Created by Andreas Ganske on 23.09.15.
-//  Copyright © 2015 Andreas Ganske. All rights reserved.
-//
-
 import Foundation
 
 class MergeTask : SequenceTask

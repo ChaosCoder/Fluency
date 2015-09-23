@@ -1,11 +1,3 @@
-//
-//  Operators.swift
-//  Fluency
-//
-//  Created by Andreas Ganske on 22.09.15.
-//  Copyright © 2015 Andreas Ganske. All rights reserved.
-//
-
 import Foundation
 
 infix operator → { associativity right precedence 150 }
@@ -109,4 +101,20 @@ func →<T> (left: (ChoiceTask<T>, T), right: (SynchronizeTask, String)) -> (Cho
 	left.0.nextTask[left.1] = right.0
 	right.0.addDependency(left.0, key: right.1)
 	return left
+}
+
+func → (left: SplitTask, right: SynchronizeTask) -> SplitTask {
+	return left → right[right.addressString]
+}
+
+func → (left: SequenceTask, right: SynchronizeTask) -> SequenceTask {
+	return left → right[right.addressString]
+}
+
+func → (left: FailableTask, right: SynchronizeTask) -> FailableTask {
+	return left → right[right.addressString]
+}
+
+func →<T> (left: (ChoiceTask<T>, T), right: SynchronizeTask) -> (ChoiceTask<T>, T) {
+	return left → right[right.addressString]
 }

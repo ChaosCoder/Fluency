@@ -1,11 +1,3 @@
-//
-//  SequenceTask.swift
-//  ShareLoc
-//
-//  Created by Andreas Ganske on 10.12.14.
-//  Copyright (c) 2014 Anbion. All rights reserved.
-//
-
 import Foundation
 
 class SequenceTask : Task
