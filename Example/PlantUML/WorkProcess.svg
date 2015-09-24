@@ -65,7 +65,7 @@
     <polygon fill="#A80036" points="180.219,608.1842,184.219,599.1842,180.219,603.1842,176.219,599.1842,180.219,608.1842" style="stroke: #A80036; stroke-width: 1.0;"/>
     <path d="M180.219,642.3142 C180.219,653.1152 180.219,667.2812 180.219,678.0822 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
     <polygon fill="#A80036" points="180.219,683.0842,184.219,674.0842,180.219,678.0842,176.219,674.0842,180.219,683.0842" style="stroke: #A80036; stroke-width: 1.0;"/>
-    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="103" x="56.9402" y="672.9903">Worked enough?</text>
+    <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="72.862" y="672.6254">Worked Hours</text>
     <path d="M173.395,700.8582 C155.154,713.3102 105.2777,747.3612 84.983,761.2162 " fill="none" style="stroke: #A80036; stroke-width: 1.0;"/>
     <polygon fill="#A80036" points="80.704,764.1372,90.3924,762.3669,84.8336,761.3183,85.8822,755.7595,80.704,764.1372" style="stroke: #A80036; stroke-width: 1.0;"/>
     <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="136.219" y="740.7676">8</text>
