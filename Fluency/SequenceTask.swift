@@ -4,7 +4,7 @@ class SequenceTask : Task
 {
 	var nextTask : Task? {
 		willSet {
-			assert(nextTask == nil, "Trying to overwrite next task of sequence task... Intendet?")
+			assert(nextTask == nil, "Trying to overwrite next task of sequence task... Intended?")
 		}
 	}
 	
