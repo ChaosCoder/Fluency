@@ -104,17 +104,25 @@ func →<T> (left: (ChoiceTask<T>, T), right: (SynchronizeTask, String)) -> (Cho
 }
 
 func → (left: SplitTask, right: SynchronizeTask) -> SplitTask {
-	return left → right[right.addressString]
+	left.nextTasks.append(right)
+	right.addDependency(left)
+	return left
 }
 
 func → (left: SequenceTask, right: SynchronizeTask) -> SequenceTask {
-	return left → right[right.addressString]
+	left.nextTask = right
+	right.addDependency(left)
+	return left
 }
 
 func → (left: FailableTask, right: SynchronizeTask) -> FailableTask {
-	return left → right[right.addressString]
+	left.successTask = right
+	right.addDependency(left)
+	return left
 }
 
 func →<T> (left: (ChoiceTask<T>, T), right: SynchronizeTask) -> (ChoiceTask<T>, T) {
-	return left → right[right.addressString]
+	left.0.nextTask[left.1] = right
+	right.addDependency(left.0)
+	return left
 }

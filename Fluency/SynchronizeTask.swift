@@ -2,14 +2,16 @@ import Foundation
 
 class SynchronizeTask: SequenceTask
 {
-	internal var dependencies : [String : [Task]]
+	internal var dependencies : [Task]
+	internal var dependenciesWithKeys : [String : [Task]]
 	internal var result : [String : Any]
 	
 	var plantUMLNumber = 0
 	
 	override init()
 	{
-		dependencies = [:]
+		dependencies = []
+		dependenciesWithKeys = [:]
 		result = [:]
 		
 		super.init()
@@ -18,6 +20,7 @@ class SynchronizeTask: SequenceTask
 	required init(task: Task) {
 		let synchronizeTask = task as! SynchronizeTask
 		dependencies = synchronizeTask.dependencies
+		dependenciesWithKeys = synchronizeTask.dependenciesWithKeys
 		result = synchronizeTask.result
 		super.init(task: task)
 	}
@@ -32,18 +35,23 @@ class SynchronizeTask: SequenceTask
 		if let key = keyForTask(prevTask)
 		{
 			result[key] = context.result
-			dependencies.removeValueForKey(key)
-			
-			if dependencies.isEmpty
-			{
-				finish(result)
-			}
+			dependenciesWithKeys.removeValueForKey(key)
+		}
+		
+		if let index = dependencies.indexOf(prevTask)
+		{
+			dependencies.removeAtIndex(index)
+		}
+		
+		if dependencies.isEmpty && dependenciesWithKeys.isEmpty
+		{
+			finish(result)
 		}
 	}
 	
 	func keyForTask(task : Task) -> String?
 	{
-		for (key, tasks) in dependencies
+		for (key, tasks) in dependenciesWithKeys
 		{
 			if tasks.contains(task)
 			{
@@ -58,17 +66,24 @@ class SynchronizeTask: SequenceTask
 		return (self, key)
 	}
 	
-	func addDependency(task : Task, key : String)
+	func addDependency(task : Task, key : String? = nil)
 	{
-		var tasks = dependencies[key]
-		
-		if tasks != nil
+		if let key = key
 		{
-			tasks!.append(task)
+			var tasks = dependenciesWithKeys[key]
+			
+			if tasks != nil
+			{
+				tasks!.append(task)
+			}
+			else
+			{
+				dependenciesWithKeys[key] = [task]
+			}
 		}
 		else
 		{
-			dependencies[key] = [task]
+			dependencies.append(task)
 		}
 	}
 	

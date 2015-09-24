@@ -23,7 +23,11 @@ class ViewController: UIViewController {
 	@IBAction func startProcess() {
 		let process = WorkProcess()
 		process.successClosure = { _ in
-			print("SUCCESS!")
+			let alertController = UIAlertController(title: "Success.",
+				message: "Your work day is over!",
+				preferredStyle: .Alert)
+			alertController.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+			self.presentViewController(alertController, animated: true, completion: nil)
 		}
 		process.execute()
 	}

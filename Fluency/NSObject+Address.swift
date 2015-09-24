@@ -3,7 +3,10 @@ import Foundation
 extension NSObject
 {
 	var addressString : String {
-		return String(format: "%p", address)
+		let string = String(format: "%p", address)
+		let index = string.startIndex.advancedBy(2)
+		
+		return string.substringFromIndex(index)
 	}
 	
 	var address : Int {

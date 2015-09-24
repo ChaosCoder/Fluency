@@ -18,7 +18,7 @@ class WorkProcess : Process
 		}
 	}
 	
-	let amIStillHungry = ChoiceTask<Bool>(title: "     Still hungry?")
+	let amIStillHungry = ChoiceTask<Bool>(title: "Still hungry?")
 	
 	let work = ClosureTask(title: "Pretend working") { _ in
 		print("Pretend working...")
@@ -40,7 +40,7 @@ class WorkProcess : Process
 	
 	let googleKeywords = GoogleKeywordsTask()
 
-	let workedHours = ChoiceTask<Int>(title: "Worked enough?")
+	let workedHours = ChoiceTask<Int>(title: "Worked Hours")
 	
 	let syncWork = SynchronizeTask()
 	
@@ -62,9 +62,7 @@ class WorkProcess : Process
 		thinkOfVerb → syncKeywords["Verb"]
 		thinkOfAnimal → syncKeywords["Animal"]
 		
-		syncKeywords → googleKeywords
-		
-		googleKeywords → workedHours
+		syncKeywords → googleKeywords → workedHours
 		
 		workedHours[8] → syncWork
 		workedHours → getCoffee
